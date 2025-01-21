@@ -89,4 +89,4 @@ def randn():
 
 def choice(c: Iterable):
     """Returns a random element from the provided iterable."""
-    return c[mt.extract_number_in_range(0, len(c))]  # Select a random element from the iterable
+    return c[mt.extract_number_in_range(0, len(c)+1)]  # Select a random element from the iterable
